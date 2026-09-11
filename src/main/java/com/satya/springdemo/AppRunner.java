@@ -40,7 +40,7 @@ import org.springframework.stereotype.Component;
 
 import com.satya.springdemo.icodiconcept.order.OrderService;
 
-@Component
+// @Component
 public class AppRunner implements CommandLineRunner {
 
     private final OrderService orderService;
