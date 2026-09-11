@@ -2,7 +2,7 @@ package com.satya.springdemo.beanpractice;
 
 import org.springframework.stereotype.Service;
 
-@Service
+@Service("productService")
 public class ProductService {
     private final PriceCalculator priceCalculator;
 
